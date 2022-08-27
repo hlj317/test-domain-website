@@ -42,7 +42,7 @@ node_modules/
 jspm_packages/
 
 # 禁止上传静态资源
-# assets/
+assets/
 
 # TypeScript v1 declaration files
 typings/
