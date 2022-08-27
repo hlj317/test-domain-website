@@ -1,8 +1,8 @@
 let home = async function (ctx, next) {
     await ctx.render("pc/home", {
-        title: "动画小猪joke",
-        description: "动画小猪joke",
-        keyword: "动画小猪joke"
+        title: "篮球博客",
+        description: "篮球博客",
+        keyword: "篮球博客"
     });
 
     return next();
@@ -10,9 +10,9 @@ let home = async function (ctx, next) {
 
 let index = async function (ctx, next) {
     await ctx.render("pc/index", {
-        title: "动画小猪joke",
-        description: "动画小猪joke",
-        keyword: "动画小猪joke"
+        title: "篮球博客",
+        description: "篮球博客",
+        keyword: "篮球博客"
     });
 
     return next();
