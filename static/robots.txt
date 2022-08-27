@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://www.cbdyou.com.cn/sitemap.xml

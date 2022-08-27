@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    {{{block ("headStart")}}}
+    {{include ("./header.html") }}
+    {{#if(productionAsset)}}
+    {{{#block ("css")}}}
+    <link rel="stylesheet" href="{{url(path +'.css')}}">
+    {{{/block}}}
+    {{/if}}
+    {{{block ("headEnd")}}}
+</head>
+
+<body {{{body_extend}}}>
+    {{{block ("body")}}}
+    <script src="{{libsPath('common-v1.1.0.js')}}"></script>
+    {{{#block ("js")}}}
+    <script src="{{url(path+'.js')}}" async></script>
+    {{{/block}}}
+</body>
+
+<script type="text/javascript">
+    ! function (a) {
+        a.HB_DISABLE_AJAX_FORCE_HTTPS = !0;
+        function b() {
+            a.rem = f.getBoundingClientRect().width / 16, f.style.fontSize = a.rem + "px"
+        }
+        var c, d = a.navigator.appVersion.match(/iphone/gi) ? a.devicePixelRatio : 1,
+            e = 1 / d,
+            f = document.documentElement,
+            g = document.createElement("meta");
+        if (a.dpr = d, a.addEventListener("resize", function () {
+            clearTimeout(c), c = setTimeout(b, 300)
+        }, !1), a.addEventListener("pageshow", function (a) {
+            a.persisted && (clearTimeout(c), c = setTimeout(b, 300))
+        }, !1), f.setAttribute("data-dpr", d), g.setAttribute("name", "viewport"), g.setAttribute("content", "initial-scale=" + e + ", maximum-scale=" + e + ", minimum-scale=" + e + ", user-scalable=no, viewport-fit=cover,width=device-width"), f.firstElementChild) f.firstElementChild.appendChild(g);
+        else {
+            var h = document.createElement("div");
+            h.appendChild(g), document.write(h.innerHTML)
+        }
+        b()
+    }(window);
+</script>
+
+</html>
