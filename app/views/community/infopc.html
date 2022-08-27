@@ -1,0 +1,38 @@
+{{extend ("../layout/default.html")}}
+{{#block ("body")}}
+<div id="infopc" class="infopc-page">
+    <div class="top-menu">
+    <div class="portait-img">
+        <img src="https://lancailaohei.oss-cn-hangzhou.aliyuncs.com/common/portait.png"/>
+    </div>
+    <div class="portait-text">
+        <div class="text-name"><span class="text-game">每日红单推荐</span>请关注微信公众号：<strong>[篮彩老黑]</strong><img src="https://lancailaohei.oss-cn-hangzhou.aliyuncs.com/common/arrow.png" /><span class="scan">可扫一扫右侧二维码</span></div>
+        <div class="text-notice">WNBA新闻资讯、WNBA伤病名单实时更新、WNBA篮彩投注率更新</div>
+    </div>
+    <div class="portait-qrcode">
+        <img src="https://lancailaohei.oss-cn-hangzhou.aliyuncs.com/common/lancai_qrcode.jpg" />
+    </div>
+    </div>
+    <div class="clear"></div>
+    <ul class="nav">
+        <li><a href="injurynbapc">NBA</a></li>
+        <li class="vote-ratio"><a href="/votepc.html">盘口投注率</a></li>
+        <li><a href="/injurywnbapc.html">WNBA</a></li>
+        <li class="vote-ratio"><a href="#" class="selected">WNBA新闻</a></li>
+    </ul>
+    <div class="clear"></div>
+    <ul class="news-list">
+        {{include ("../layout/wnba_news_list.html") }}
+    </ul>
+    <div class="clear"></div>
+    <div class="bottom">
+    <div class="bottom-text">
+        本网站服务由[篮彩老黑]独家提供&nbsp;&nbsp;&nbsp;&nbsp;<span>版权所有ICP证：</span>
+        <a href="https://beian.miit.gov.cn/" target="_blank" class="bottom-link">浙ICP备17001885号-5</a><br/>
+        Copyright © 2022 cbdyou.com.cn 保留一切权利
+    </div>
+    <div class="bottom-qrcode"><img src="https://lancailaohei.oss-cn-hangzhou.aliyuncs.com/common/lancai_qrcode_plus.jpg" /></div>
+    </div>
+</div>
+<script type="text/javascript" src="{{libsPath('vue.min.js')}}"></script>
+{{/block}}

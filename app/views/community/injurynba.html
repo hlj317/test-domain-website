@@ -1,0 +1,66 @@
+{{extend ("../layout/mobile_default.html")}}
+{{#block ("body")}}
+<div id="injury" class="injury-nba-page">
+    <div class="top-part">
+        <div class="top-menu">
+            <div class="portait-img">
+                <img src="https://lancailaohei.oss-cn-hangzhou.aliyuncs.com/common/portait.png"/>
+            </div>
+            <div class="portait-text">
+                <div class="text-name"><span class="text-game">每日红单推荐</span>请关注微信公众号：<strong>[篮彩老黑]</strong></div>
+                <div class="text-notice">NBA伤病名单实时更新、篮彩投注热度更新、WNBA伤病名单实时更新</div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <ul class="nav">
+            <li><a href="#">NBA</a><span class="selected"></span></li>
+            <li class="vote-ratio"><a href="/vote.html">盘口投注率</a></li>
+            <li><a href="/injurywnba.html">WNBA</a></li>
+            <li class="vote-ratio"><a href="/info.html">WNBA新闻</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="updatetime">最近更新时间：<strong>{{include ("../layout/updatetime.html") }}</strong>（开赛前持续更新，敬请关注）</div>
+    <table class="list" border="0" cellspacing="1" cellpadding="0">
+
+        {{#each(nbaData)}}
+            <tr>  
+                <th colspan="4" class="team-name {{xindex}}">{{getTeam(xindex).chineseName}}<span class="en-name">{{getTeam(xindex).enName}}</span></th>
+            </tr> 
+            <tr class="title">  
+                <td rowspan="{{getLength(xindex)}}" class="team_logo"><img src="{{getTeam(xindex).img}}" /></td>
+                <th class="name">姓名</th>
+                <th class="status">状态</th>
+                <th class="detail">详情</th>
+            </tr>
+            {{#each(nbaData[xindex])}}
+                <tr>  
+                    <td>
+                        {{handleData(this).name}}
+                        {{#if(handleData(this).important)}}<span class="important" v-if="item.important">重要</span>{{/if}}
+                    </td>
+                    <td>{{handleData(this).status}}</td>
+                    <td>{{handleData(this).detail}}</td>
+                </tr>
+            {{/each}}
+
+            <tr class="empty"><td colspan="4"></td></tr> 
+        {{/each}}
+
+    </table>
+    <ul class="news-nav">
+        {{include ("../layout/news_list.html") }}
+    </ul>
+    <div class="clear"></div>
+    <div class="bottom">
+        <div class="bottom-text">
+            本网站服务由[篮彩老黑]独家提供<br/>
+            <span>版权所有ICP证：</span>
+            <a href="https://beian.miit.gov.cn/" target="_blank" class="bottom-link">浙ICP备17001885号-5</a><br/>
+            Copyright © 2022 cbdyou.com.cn 保留一切权利
+        </div>
+        <div class="bottom-qrcode"><img src="https://lancailaohei.oss-cn-hangzhou.aliyuncs.com/common/lancai_qrcode_plus.jpg" /></div>
+    </div>
+</div>
+<script type="text/javascript" src="{{libsPath('vue.min.js')}}"></script>
+{{/block}}

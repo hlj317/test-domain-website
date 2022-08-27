@@ -16,7 +16,7 @@
 
     const mysql = require("./app/models/common/mysql.js");
 
-    const port = process.env.NODE_ENV === "dev" ? "8080" : "80";
+    const port = process.env.NODE_ENV === "dev" ? "2020" : "21";
 
     mysql.init();
 
@@ -56,8 +56,21 @@
         // view 中的全局变量
         const ua = ctx.request.header['user-agent'];
         let path = ctx.path.slice(1);
-        ctx.state.path = path || "/";
-
+        if(isMobile(ua)){
+            ctx.state.path = path || "pc/home"; // 去掉后缀.html,用于页面上自动载于静态资源
+        }else{
+            ctx.state.path = path || "pc/home";
+        }
+        //NBA新闻页用统一的样式模板
+        if(path.indexOf("news") > -1){
+            ctx.state.path = "news";
+        }
+        //WNBA新闻页用统一的样式模板
+        if(isMobile(ua) && path.indexOf("detail") > -1){
+            ctx.state.path = "detail";
+        }else if(path.indexOf("detail") > -1){
+            ctx.state.path = "detailpc";
+        }
         return next();
     });
 
