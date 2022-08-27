@@ -19,7 +19,7 @@
             <!-- <span>版权所有ICP证：</span>
             <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备17001885号-3</a> -->
         </div>
-        <div class="copyright"><a href="http://idinfo.zjamr.zj.gov.cn/bscx.do?method=lzxx&amp;id=3301043301040001194716"><img src="//h0.beicdn.com/open201951/023cf68733c6ee08_65x70.png" class="hongdun-icon" alt=""> </a>© <span class="J_year">2021-2022</span> shemoreshop.com 个人版权所有 </div>
+        <div class="copyright"><a href="http://idinfo.zjamr.zj.gov.cn/bscx.do?method=lzxx&amp;id=3301043301040001194716"><img src="//h0.beicdn.com/open201951/023cf68733c6ee08_65x70.png" class="hongdun-icon" alt=""> </a>© <span class="J_year">2021-2022</span> lancailaohei.top 个人版权所有 </div>
     </section>
   </div>
 
