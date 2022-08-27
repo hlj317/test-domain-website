@@ -1,0 +1,106 @@
+{
+  "rankpc": {
+    "js": "/assets/static/rankpc-8332f2b0.js",
+    "css": "/assets/static/rankpc-5c2788f1.css"
+  },
+  "error/404": {
+    "js": "/assets/static/error/404-719399c2.js",
+    "css": "/assets/static/error/404-1f0c3380.css",
+    "woff": "/assets/static/8.woff"
+  },
+  "": {
+    "json": "/manifest.json",
+    "ttf": "/assets/static/732389de.element-icons.ttf",
+    "png": "/dc3ad901c88194a7c6e527894f11b8a3.png",
+    "woff": "/assets/static/535877f5.element-icons.woff"
+  },
+  "hello": {
+    "js": "/assets/static/hello-3d574a2f.js",
+    "css": "/assets/static/hello-fdf92da0.css"
+  },
+  "home": {
+    "js": "/assets/static/home-db230c01.js",
+    "css": "/assets/static/home-736c5c37.css"
+  },
+  "pc/home": {
+    "js": "/assets/static/pc/home-0fb7904b.js",
+    "css": "/assets/static/pc/home-1f0c3380.css"
+  },
+  "movie/register": {
+    "js": "/assets/static/movie/register-088102f7.js",
+    "css": "/assets/static/movie/register-5c2788f1.css"
+  },
+  "movie/login": {
+    "js": "/assets/static/movie/login-b02c099a.js",
+    "css": "/assets/static/movie/login-5c2788f1.css"
+  },
+  "index": {
+    "js": "/assets/static/index-1338cfa4.js",
+    "css": "/assets/static/index-1f0c3380.css"
+  },
+  "guess": {
+    "js": "/assets/static/guess-baf58a95.js",
+    "css": "/assets/static/guess-1f0c3380.css"
+  },
+  "votepc": {
+    "js": "/assets/static/votepc-387ba8a1.js",
+    "css": "/assets/static/votepc-5c2788f1.css"
+  },
+  "vote": {
+    "js": "/assets/static/vote-59d6e789.js",
+    "css": "/assets/static/vote-5c2788f1.css"
+  },
+  "demo/hello": {
+    "js": "/assets/static/demo/hello-ce4855ca.js",
+    "css": "/assets/static/demo/hello-80ad67d5.css",
+    "woff": "/assets/static/8.woff"
+  },
+  "rank": {
+    "js": "/assets/static/rank-daff232a.js",
+    "css": "/assets/static/rank-5c2788f1.css"
+  },
+  "news": {
+    "js": "/assets/static/news-c17f80ed.js",
+    "css": "/assets/static/news-5c2788f1.css"
+  },
+  "injurywnbapc": {
+    "js": "/assets/static/injurywnbapc-09a461a0.js",
+    "css": "/assets/static/injurywnbapc-5c2788f1.css"
+  },
+  "injurywnba": {
+    "js": "/assets/static/injurywnba-fa538c12.js",
+    "css": "/assets/static/injurywnba-5c2788f1.css"
+  },
+  "injurynbapc": {
+    "js": "/assets/static/injurynbapc-0a18f226.js",
+    "css": "/assets/static/injurynbapc-5c2788f1.css"
+  },
+  "injurynba": {
+    "js": "/assets/static/injurynba-acbc0a1a.js",
+    "css": "/assets/static/injurynba-5c2788f1.css"
+  },
+  "injurycbapc": {
+    "js": "/assets/static/injurycbapc-02140ea3.js",
+    "css": "/assets/static/injurycbapc-5c2788f1.css"
+  },
+  "injurycba": {
+    "js": "/assets/static/injurycba-c4558d34.js",
+    "css": "/assets/static/injurycba-5c2788f1.css"
+  },
+  "infopc": {
+    "js": "/assets/static/infopc-63d43e57.js",
+    "css": "/assets/static/infopc-5c2788f1.css"
+  },
+  "info": {
+    "js": "/assets/static/info-e4896b01.js",
+    "css": "/assets/static/info-5c2788f1.css"
+  },
+  "detailpc": {
+    "js": "/assets/static/detailpc-d8eed0f8.js",
+    "css": "/assets/static/detailpc-5c2788f1.css"
+  },
+  "detail": {
+    "js": "/assets/static/detail-3c777448.js",
+    "css": "/assets/static/detail-5c2788f1.css"
+  }
+}
