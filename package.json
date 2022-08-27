@@ -8,7 +8,7 @@
         "start:production": "pm2 startOrRestart ./config/ecosystem/ecosystem.json --only community-service-production",
         "restart:dev": "pm2 delete all && npm run start:dev",
         "restart:production": "pm2 delete all && npm run start:production",
-        "dev": "./node_modules/.bin/webpack-dev-server --config ./bin/build/webpack.dev.conf.js --port 8001",
+        "dev": "./node_modules/.bin/webpack-dev-server --config ./bin/build/webpack.dev.conf.js --port 2001",
         "build": "npm run clean && npm run build:js",
         "clean": "node ./bin/build/clean-file",
         "build:js": "cross-env NODE_ENV=production webpack --config ./bin/build/webpack.prod.conf.js",

@@ -57,9 +57,9 @@
         const ua = ctx.request.header['user-agent'];
         let path = ctx.path.slice(1);
         if(isMobile(ua)){
-            ctx.state.path = path || "pc/home"; // 去掉后缀.html,用于页面上自动载于静态资源
+            ctx.state.path = path || "injurynba"; // 去掉后缀.html,用于页面上自动载于静态资源
         }else{
-            ctx.state.path = path || "pc/home";
+            ctx.state.path = path || "injurynbapc";
         }
         //NBA新闻页用统一的样式模板
         if(path.indexOf("news") > -1){
