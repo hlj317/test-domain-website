@@ -1,12 +1,13 @@
 {
+  "error/404": {
+    "js": "/assets/static/error/404-719399c2.js",
+    "css": "/assets/static/error/404-1f0c3380.css",
+    "woff": "/assets/static/8.woff"
+  },
   "demo/hello": {
     "js": "/assets/static/demo/hello-ce4855ca.js",
     "css": "/assets/static/demo/hello-80ad67d5.css",
     "woff": "/assets/static/8.woff"
-  },
-  "rankpc": {
-    "js": "/assets/static/rankpc-8332f2b0.js",
-    "css": "/assets/static/rankpc-5c2788f1.css"
   },
   "": {
     "json": "/manifest.json",
@@ -23,8 +24,8 @@
     "css": "/assets/static/home-736c5c37.css"
   },
   "pc/home": {
-    "js": "/assets/static/pc/home-09b9df50.js",
-    "css": "/assets/static/pc/home-2f6fdad4.css"
+    "js": "/assets/static/pc/home-4f9e1f5d.js",
+    "css": "/assets/static/pc/home-4fd03e29.css"
   },
   "movie/register": {
     "js": "/assets/static/movie/register-088102f7.js",
@@ -50,10 +51,9 @@
     "js": "/assets/static/vote-59d6e789.js",
     "css": "/assets/static/vote-5c2788f1.css"
   },
-  "error/404": {
-    "js": "/assets/static/error/404-719399c2.js",
-    "css": "/assets/static/error/404-1f0c3380.css",
-    "woff": "/assets/static/8.woff"
+  "rankpc": {
+    "js": "/assets/static/rankpc-8332f2b0.js",
+    "css": "/assets/static/rankpc-5c2788f1.css"
   },
   "rank": {
     "js": "/assets/static/rank-daff232a.js",

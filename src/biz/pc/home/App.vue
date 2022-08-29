@@ -1,17 +1,17 @@
 <template>
   <div id="home"
        class="home-page">
-    <section class="header">篮球博客</section>
+    <section class="header">睬耘贸易商行</section>
     <section class="navigation">
-      <div class="entry"><a href="#">篮球</br>技巧</a></div>
-      <div class="entry"><a href="#">篮球</br>实战</a></div>
-      <div class="entry"><a href="#">篮球</br>联盟</a></div>
-      <div class="entry"><a href="#">国外</br>新闻</a></div>
+      <div class="entry"><a href="#">企业</br>介绍</a></div>
+      <div class="entry"><a href="#">人才</br>战略</a></div>
+      <div class="entry"><a href="#">产品</br>优势</a></div>
+      <div class="entry"><a href="#">联系</br>我们</a></div>
     </section>
     <section class="content">
       <div class="article">
-        <div class="title">博客介绍</div>
-        <div class="descirption">本博客会介绍一些篮球实战相关的技巧、还有NBA/CBA联盟的一些球星介绍，我一直是科比和詹姆斯的粉丝，也研究了他们许多的打法和技巧，博客中也会重点介绍这两位球星，希望大家喜欢，谢谢！</div>
+        <div class="title">企业介绍</div>
+        <div class="descirption">睬耘贸易商行是一家综合性的批发商行，包含母婴用品、服务服饰、针纺织品、箱包鞋帽、家用电器、日用百货、户外用品、家具、家具用品、电子产品、文化用品、体育用品、办公用品、床上用品、化妆品、橡胶制品、工艺礼品等。</div>
       </div>
     </section>
     <section class="footer">
